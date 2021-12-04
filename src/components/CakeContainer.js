@@ -28,3 +28,5 @@ const CakeContainer = (props) => {
 
 //Connect these functions with the component
 export default connect(mapStateToProps, mapDispatchToProps)(CakeContainer);
+
+//Connect() --> old way, now we use hooks to subscribe to the store and dispatch actions without using connect()
