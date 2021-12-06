@@ -5,7 +5,7 @@ import icecreamReducer from './icecream/IcecreamReducer';
 //Comibing Reducers
 const rootReducer = combineReducers({
     cake: cakeReducer,
-    icecCrem: icecreamReducer
+    icecream: icecreamReducer
 })
 
 const store = createStore(rootReducer);

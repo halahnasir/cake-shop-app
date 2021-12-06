@@ -1,10 +1,10 @@
 import { BUY_ICECREAM } from './IcecreamType'
 
-const initialState = {
+const icecreamState = {
     numOfIcecreams: 20
 }
 
-const icecreamReducer = (state = initialState, action) => {
+const icecreamReducer = (state = icecreamState, action) => {
     switch(action.type){
         case BUY_ICECREAM: return{
             ...state,

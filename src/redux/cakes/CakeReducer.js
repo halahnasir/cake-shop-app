@@ -4,13 +4,13 @@
 import {BUY_CAKE} from './CakeType';
 
 // We start off with 10 cakes in the shop/inventory
-const initialState = {
+const cakeState = {
     numOfCakes: 10
 }
 
 //Reducer
 
-const cakeReducer = (state = initialState, action) => {
+const cakeReducer = (state = cakeState, action) => {
     switch(action.type){
         case BUY_CAKE: return{
             ...state,
