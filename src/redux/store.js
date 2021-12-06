@@ -8,6 +8,6 @@ const rootReducer = combineReducers({
     icecCrem: icecreamReducer
 })
 
-const store = createStore(cakeReducer);
+const store = createStore(rootReducer);
 
 export default store;
