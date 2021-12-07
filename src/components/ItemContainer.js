@@ -31,6 +31,6 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 
 }
 
-
+//When you want to dispatch actions only and not subscribe to the state changes in the redux store, pass null as the first argument in the connect function in place of mapStateToProps
 
 export default connect(mapStateToProps, mapDispatchToProps)(ItemContainer);
