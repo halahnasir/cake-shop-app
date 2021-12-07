@@ -7,19 +7,20 @@ import IcecreamContainer from './components/IcecreamContainer';
 import CookiesContainer from './components/CookiesContainer';
 import NewCakeContainer from './components/NewCakeContainer';
 import ItemContainer from './components/ItemContainer';
+import UserContainer from './components/UserContainer';
 
 function App() {
   return (
     <Provider store = {store}>
       <div className="App">
-        <CakeContainer/>
+        {/* <CakeContainer/>
         <HooksCakeContainer/>
         <NewCakeContainer/>
         <IcecreamContainer/>
         <CookiesContainer/>
         <ItemContainer cake/>
-        <ItemContainer icecream/>
-
+        <ItemContainer icecream/> */}
+        <UserContainer/>
       </div>
     </Provider>
   );
