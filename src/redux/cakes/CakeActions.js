@@ -3,9 +3,10 @@
 //import the action
 import {BUY_CAKE} from './CakeType';
 
-const buyCake = () => {
+const buyCake = (number = 1) => {
     return{
-        type: BUY_CAKE
+        type: BUY_CAKE,
+        payload: number
     }
 }
 
